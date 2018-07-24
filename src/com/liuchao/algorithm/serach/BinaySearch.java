@@ -11,7 +11,7 @@ import java.util.Arrays;
 public class BinaySearch {
 
     public static void main(String[] args) {
-        int[] a = new int[]{1, 4, 9, 2, 7, 5};
+        int[] a = {1, 4, 9, 2, 7, 5};
         Arrays.sort(a);
         System.out.println(rank(5, a));
     }
